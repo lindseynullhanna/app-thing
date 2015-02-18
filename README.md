@@ -10,21 +10,21 @@
 ###### Set up the repo
 Create a fork then run:
 
-$ git clone git@github.com:<your-fork>/app-thing.git
-$ cd app-thing
-$ npm install && jspm install
+	$ git clone git@github.com:<your-fork>/app-thing.git
+	$ cd app-thing
+	$ npm install && jspm install
 
 
 ### Development
 
 ###### Build
-# default build
-(app-thing) $ gulp
+	# default build
+	(app-thing) $ gulp
 
 
 ###### Run a local server
-$ python -m SimpleHTTPServer 8080
-Navigate to localhost:8080
+	$ python -m SimpleHTTPServer 8080
+	Navigate to localhost:8080
 
 ### Guidelines
 
