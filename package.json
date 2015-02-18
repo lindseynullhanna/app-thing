@@ -11,7 +11,14 @@
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-react": "^2.0.0",
-    "react": "^0.12.2",
-    "vinyl-source-stream": "^1.0.0"
+    "systemjs": "^0.11.3"
+  },
+  "jspm": {
+    "directories": {
+      "lib": "build"
+    },
+    "dependencies": {
+      "react": "^0.12.2"
+    }
   }
 }

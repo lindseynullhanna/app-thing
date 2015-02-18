@@ -2,13 +2,11 @@
 
 var gulp = require('gulp');
 var react = require('gulp-react');
-var source = require('vinyl-source-stream');
 
 gulp.task('scripts', function() {
-	return gulp.src('/src/*.js')
+	return gulp.src('src/jsx/*.jsx')
 	.pipe(react())
-	.pipe(source('app.js'))
-	.pipe(gulp.dest('./build/scripts'));
+	.pipe(gulp.dest('build'));
 });
 
 gulp.task('default', [], function() {
