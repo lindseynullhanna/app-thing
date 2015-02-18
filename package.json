@@ -1,16 +1,22 @@
 {
-  "name": "tryit",
-  "version": "1.0.0",
-  "description": "",
+  "name": "app-thing",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A super awesome app",
   "main": "src/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nostuddedtrees/app-thing.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Lindsey Hanna & Melissa Dale",
+  "license": "",
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-react": "^2.0.0",
+    "jspm": "^0.13.4",
     "systemjs": "^0.11.3"
   },
   "jspm": {
